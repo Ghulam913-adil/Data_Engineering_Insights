@@ -80,10 +80,3 @@ Here are some example SQL queries included in this repository:
   GROUP BY column1;
   ```
 
-## 🤝 Contributing
-
-Contributions are welcome! Please read the [contributing guidelines](CONTRIBUTING.md) first.
-
-## 📜 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
