@@ -1,0 +1,23 @@
+version: '3.9'
+
+services:
+  app:
+    build: .
+    container_name: docker_python_oracle_app
+    depends_on:
+      - oracle
+    environment:
+      - ORACLE_HOST=oracle
+      - ORACLE_PORT=1521
+      - ORACLE_DB=orclpdb
+      - ORACLE_USER=hr
+      - ORACLE_PASS=hr
+
+  oracle:
+    image: store/oracle/database-enterprise:12.2.0.1
+    container_name: oracle_db
+    environment:
+      - ORACLE_PWD=oracle
+      - ORACLE_SID=orclpdb
+    ports:
+      - "1521:1521"
