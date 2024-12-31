@@ -53,38 +53,7 @@ To get started, ensure you have the following tools installed:
 - **AWS Account**: To utilize cloud services for scalable solutions (e.g., S3, Redshift, RDS).
 - **Oracle Database**: For enterprise-level data storage and management.
 
-### Installation
 
-1. Clone the repository to your local machine using the following command:
-
-   ```sh
-   git clone https://github.com/your-username/Data-Engineering-Insights.git
-
-
-
-
-Navigate to the project directory:
-
-sh
-Copy code
-cd Data-Engineering-Insights
-Set up Docker containers for local development:
-
-sh
-Copy code
-docker-compose up -d
-Install Airflow dependencies (optional):
-
-sh
-Copy code
-pip install apache-airflow
-Start Spark clusters (optional for batch processing tasks):
-
-sh
-Copy code
-docker-compose up spark
-Sample Pipelines
-Here are some sample data pipelines and tasks included in this repository:
 
 Dockerized Spark Pipeline: A data processing pipeline using Apache Spark inside a Docker container.
 
