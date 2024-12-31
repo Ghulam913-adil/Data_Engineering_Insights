@@ -72,6 +72,19 @@ AWS S3 Integration: Uploading data to AWS S3 bucket.
 
 ☁️ AWS: upload_to_s3('data.csv', 'my-s3-bucket')
 
+
+
+## 📜 License
+
+This project is licensed under the **MIT License** — a simple and permissive open-source license that allows you to freely use, modify, and distribute this project. For detailed terms, see the [LICENSE](LICENSE) file.
+
+---
+
+This repository empowers Data Engineers with essential tools and best practices, focusing on modern technologies like **Docker**, **Airflow**, **Apache Spark**, **AWS**, and **Oracle**. Whether you're orchestrating workflows, processing large datasets, or integrating cloud services, this collection equips you with everything you need to build, scale, and maintain high-performance data pipelines.
+
+Explore, contribute, and elevate your Data Engineering journey with us! 🚀
+
+
 Oracle Database Integration: Querying and inserting data into Oracle.
 
 🏢 Oracle: connect_to_oracle()
