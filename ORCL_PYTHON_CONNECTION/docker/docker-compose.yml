@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    container_name: oracle_app
+    environment:
+      # Set environment variables for Oracle Instant Client
+      LD_LIBRARY_PATH: /opt/oracle/instantclient
+      PATH: "$PATH:/opt/oracle/instantclient"
+    volumes:
+      - ../:/app  # Map the project directory
+    stdin_open: true
+    tty: true
+    working_dir: /app
